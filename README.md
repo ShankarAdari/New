@@ -35,3 +35,13 @@ Validation
 To check that the table saved as expected, expand the Tables list in your Lakehouse and review its contents. You can also turn to the Copilot chat panel for quick exploratory questions; Copilot will reply with explanations or runnable code. 
 
 For example:
+Run Example copilot prompt file
+
+Copilot generates code to filter the data for the specified geo and year, and display the result.
+
+Run example python file for the next step
+
+Best practices
+Copilot is currently strongest with data engineering and data science scenarios, so framing questions in those domains tends to yield clearer results.
+Giving Copilot concrete references to your data assets (file paths, table names, column names) usually improves the specificity and usefulness of generated answers.
+Loading data as DataFrames or pinning datasets in your Lakehouse supplies richer context, enabling more accurate analysis and transformations.
