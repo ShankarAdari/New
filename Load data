@@ -1,0 +1,6 @@
+%%code
+
+Download the following file from this URL:
+https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/proj_23np$defaultview/?format=TSV
+
+Then write the file to the default lakehouse into a temporary folder. Create the temporary folder if it doesn't exist yet.
