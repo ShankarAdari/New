@@ -1,0 +1,26 @@
+%%code
+
+Now transform this dataframe spark_df and split the first field 'freq,projection,sex,age,unit,geo\TIME_PERIOD' using a comma into 6 separate fields.
+
+Then, remove the fields 'freq', 'age', 'unit'.
+
+The fields 'projection', 'sex', 'geo' should be positioned first.
+
+The 'projection' field contains codes that should be replaced with the following values:
+
+ _'BSL' -> 'Baseline projections'.
+ _'LFRT' -> 'Sensitivity test: lower fertility'.
+ _'LMRT' -> 'Sensitivity test: lower mortality'.
+ _'HMIGR' -> 'Sensitivity test: higher migration'.
+ _'LMIGR' -> 'Sensitivity test: lower migration'.
+ _'NMIGR' -> 'Sensitivity test: no migration'.
+
+Filter the 'geo' field and remove values 'EA20' and 'EU27_2020' (these are not countries).
+
+Filter the 'sex' field and remove 'T' (these are totals).
+
+Strip spaces from all field names in the dataframe.
+
+Convert the data type of all the year fields to integer.
+
+Display (Render) the DataFrame.
