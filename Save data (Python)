@@ -1,0 +1,3 @@
+#### ATTENTION: AI-generated code can include errors or operations you didn't intend. Review the code in this cell carefully before running it.
+
+spark_df.write.format("delta").saveAsTable("Population")
