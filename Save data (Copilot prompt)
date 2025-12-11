@@ -1,0 +1,3 @@
+%%code
+ 
+Save the dataframe as a new table named 'Population' in the default lakehouse.
