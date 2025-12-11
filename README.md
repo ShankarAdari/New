@@ -45,3 +45,6 @@ Best practices
 Copilot is currently strongest with data engineering and data science scenarios, so framing questions in those domains tends to yield clearer results.
 Giving Copilot concrete references to your data assets (file paths, table names, column names) usually improves the specificity and usefulness of generated answers.
 Loading data as DataFrames or pinning datasets in your Lakehouse supplies richer context, enabling more accurate analysis and transformations.
+
+We can also generatecharts using these commands
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/Images/copilot-fabric-notebook-step-7-line-chart.png
